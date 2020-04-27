@@ -1,4 +1,4 @@
-'ues strict';
+'use strict';
 
 
 const random = (max, min) => {
@@ -91,3 +91,5 @@ const arr = array();
 
 arr.push(5);
 console.log(arr(1));
+
+module.exports = { seq, curry, iface, random };

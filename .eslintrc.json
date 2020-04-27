@@ -263,6 +263,7 @@
     "template-curly-spacing": [
       "error",
       "never"
-    ]
+    ],
+     "no-unused-vars": ["off", { "args": "none" }]
   }
 }
