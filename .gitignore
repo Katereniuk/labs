@@ -4,6 +4,3 @@ node_modules/
 
 #  files
 .DS_Store
-
-# dotenv
-.env

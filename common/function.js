@@ -80,7 +80,7 @@ const seq = f => g => (typeof g === 'number' ? f(g) : seq(x => f(g(x))));
 
 
 const array = () => {
-  const data = [1];
+  const data = [1, 2, 3, 4, 5];
   const get = i => data[i];
   get.push = x => data.push(x);
   get.pop = () => data.pop();
@@ -89,7 +89,10 @@ const array = () => {
 
 const arr = array();
 
-arr.push(5);
-console.log(arr(1));
 
-module.exports = { seq, curry, iface, random };
+console.log(arr(4));
+
+
+function maybee(x) {
+  this.x = x;
+}

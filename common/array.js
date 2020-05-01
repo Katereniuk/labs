@@ -3,7 +3,7 @@
 
 const diff = (ob1, ob2) => {
   const diff = [];
-  for (let item of ob1) {
+  for (const item of ob1) {
     if (ob2.includes(item)) {
       diff.push(item);
     }
