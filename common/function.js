@@ -63,7 +63,7 @@ const res = partial(sum, 1, 5, 5);
 const res1 = res(1);
 
 
-console.log(res1);
+// console.log(res1);
 
 
 
@@ -89,10 +89,6 @@ const array = () => {
 
 const arr = array();
 
+console.log(arr);
 
-console.log(arr(4));
-
-
-function maybee(x) {
-  this.x = x;
-}
+arr.push(2);
