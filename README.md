@@ -1,6 +1,7 @@
-### labs
+## labs
 + javascript 
 + node.js
++ sql
 
 
 
