@@ -19,3 +19,5 @@ const warning = logger('warning');
 const error = logger('error');
 const done = logger('done');
 const debug = logger('info');
+
+console.log('a');

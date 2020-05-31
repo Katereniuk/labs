@@ -20,5 +20,5 @@ const deleyPrint = new Promise((resolve, reject) => {
 
 console.log(deleyPrint);
 
-console.log(global);
-console.log(__dirname);
+
+const a = {};
